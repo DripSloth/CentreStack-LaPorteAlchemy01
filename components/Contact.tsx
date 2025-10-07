@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-10">
           We partner with a select number of clients each year to ensure our highest standards are met on every project. Reach out to begin the conversation about your property.
         </p>
-        <a href="mailto:consult@laportealchemy.com" className="bg-green-800 text-white font-bold py-4 px-10 rounded-full hover:bg-green-700 transition-all duration-300 transform hover:scale-105 text-lg">
+        <a href="mailto:consult@laportealchemy.com" className="bg-green-700 text-white font-bold py-4 px-10 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-105 text-lg">
           Book a Consultation
         </a>
       </div>

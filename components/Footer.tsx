@@ -1,11 +1,12 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-gray-400 py-12">
       <div className="container mx-auto px-6 text-center">
-        <p className="text-xl font-bold font-serif text-white mb-2">La Porte Alchemy</p>
+        <a href="#home" aria-label="La Porte Alchemy Home" className="inline-block mb-4">
+          <img src="/logo-white.png" alt="La Porte Alchemy Logo" className="h-10 w-auto" />
+        </a>
         <p className="mb-4">Crafting Enduring Outdoor Sanctuaries</p>
         <div className="flex justify-center space-x-6 mb-6">
           <a href="#" className="hover:text-white transition-colors duration-300">Instagram</a>

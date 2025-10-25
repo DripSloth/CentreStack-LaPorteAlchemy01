@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" aria-label="La Porte Alchemy Home">
-          <img src="/la-porte-alchemy-logo-white.png" alt="La Porte Alchemy Logo" className="h-10 w-auto" />
+          <img src="/logo-white.png" alt="La Porte Alchemy Logo" className="h-10 w-auto" />
         </a>
         <nav className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (

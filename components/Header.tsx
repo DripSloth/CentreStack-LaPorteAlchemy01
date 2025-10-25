@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" aria-label="La Porte Alchemy Home">
-          <img src="/white_transparent_landscape.png" alt="La Porte Alchemy Logo" className="h-10 w-auto" />
+          <img src="/la-porte-alchemy-logo-white.png" alt="La Porte Alchemy Logo" className="h-10 w-auto" />
         </a>
         <nav className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
@@ -27,7 +27,7 @@ const Header: React.FC = () => {
             </a>
           ))}
         </nav>
-        <a href="#contact" className="hidden md:inline-block bg-green-700 text-white font-bold py-2 px-6 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+        <a href="#contact" className="hidden md:inline-block bg-green-800 text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-all duration-300 transform hover:scale-105">
           Book a Consultation
         </a>
         <button className="md:hidden text-white" aria-label="Open menu">

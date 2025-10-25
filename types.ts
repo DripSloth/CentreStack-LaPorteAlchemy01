@@ -12,7 +12,9 @@ export interface Project {
   title: string;
   category: string;
   imageUrl: string;
-  span: 'col-span-1' | 'col-span-2' | 'row-span-1' | 'row-span-2';
+  // Fix: Update type to string to allow for combined grid span classes.
+  span: string;
+  description?: string;
 }
 
 export interface ProcessStep {
